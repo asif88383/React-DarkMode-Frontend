@@ -4,6 +4,18 @@ Global Styles
 ===============
 */
 
+html.light-theme{
+  --clr-bcg: #f3ebeb;
+  --clr-font: #0e0e0e;
+  --clr-primary: #d23669;
+}
+
+html.dark-theme{
+  --clr-bcg: #100f0f;
+  --clr-font: #e9e9e9;
+  --clr-primary: #d23669;
+}
+
 :root {
   --clr-bcg: #fff;
   --clr-font: #282c35;

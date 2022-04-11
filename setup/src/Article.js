@@ -9,7 +9,7 @@ const Article = ({title, snippet, date, length}) => { // Article is a component 
         <span>{moment(date).format('dddd Do, YYYY')}</span>
         <span>{length} min read</span>
       </div>
-      <p>{snippet}</p>  // snippet is a prop that is passed in as a prop
+      <p>{snippet}</p>  
     </article>
   )
 }
